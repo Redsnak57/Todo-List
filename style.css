@@ -4,12 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+ 
 }
 
 body {
-    background-image: linear-gradient(120deg, #050544, #460606);
+    background-image: linear-gradient(130deg, #3cffa3cc, #1683aedb, #0b052c);
     color: white;
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
     min-height: 100vh;
 }
 
@@ -34,14 +36,14 @@ form button {
 }
 
 form button {
-    color: #460606;
+    color: #1683aedb;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #460606;
+    background: #1683aedb;
     color: white;
 }
 
@@ -73,7 +75,7 @@ form button:hover {
 
 .supp-btn,
 .complete-btn {
-    background: #460606;
+    background: #1683aedb;
     color: white;
     border: none;
     padding: 1rem;
@@ -107,16 +109,17 @@ form button:hover {
 }
 
 select {
+    font-size: 1.5rem;
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
    outline: none;
    box-shadow: none;
    border: none;
-   color: #460606;
+   color: #1683aedb;
    width: 10rem;
    cursor: pointer;
-   padding: 1rem;
+   padding: 0.86rem;
 }
 
 .select {
@@ -128,15 +131,15 @@ select {
 .select::after {
     content : "\25BC";
     position: absolute;
-    background: #460606 ;
+    background: #1683aedb ;
     top: 0;
     right: 0;
-    padding: 1rem;
+    padding: 1.2rem;
     pointer-events: none;
     transition: all 0.3s ease;
 }
 
 .select:hover::after {
     background: white;
-    color: #460606;
+    color: #1683aedb;
 }
